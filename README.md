@@ -1,2 +1,3 @@
 # Challenge-Frontend-Marvel
-Desesafio  para desenvolvimento  (frontend)  da Web Marvel  
+Desafio para desenvolvimento (frontend) da Web Marvel. 
+(Utilizando  HTML, CSS, JavaScript)
