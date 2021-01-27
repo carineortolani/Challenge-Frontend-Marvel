@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body {
+    position: relative;
+    width: 1600px;
+    height: 1800px;
+    background: #F5F5F5;
+}
