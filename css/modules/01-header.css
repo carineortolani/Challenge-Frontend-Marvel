@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 150px;
+  height: 128px;
 
   background: #202020;
 
@@ -19,13 +19,14 @@
 }
 
 .hl__img {
-  width: 60px;
+  width: 51px;
+  margin-right: 15px;
 }
 
 .hl__title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 1em;
 
   /* (forma resumida) */
@@ -35,13 +36,13 @@
 }
 
 .h__buttonYourTeam {
-  /* width: 179px; */
-  /* height: 59px; */
-  padding: 18px 8px;
+  width: 152px;
+  height: 50px;
+  /* padding: 18px 8px; */
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   border-radius: 5px 20px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1em;
 
   color: #fff;
@@ -49,10 +50,10 @@
 
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
+  justify-content: center;
 }
 
 .hb__imgButtonYT {
-  width: 30px;
-  margin-left: 8px;
+  width: 24.5px;
+  margin-left: 10px;
 }
