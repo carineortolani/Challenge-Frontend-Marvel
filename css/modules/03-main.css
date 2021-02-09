@@ -112,3 +112,45 @@
 .mcc__img_4 {
   height: 169px;
 }
+
+.m__pagination {
+  margin-top: 22px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mp__page {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1em;
+}
+
+.mpp__number {
+  text-decoration: none;
+  color: #212121;
+}
+
+.mpp__more {
+  text-decoration: none;
+  color: #212121;
+}
+
+.mpp__end {
+  text-decoration: none;
+  color: #212121;
+}
+
+.mpp__prev {
+  text-decoration: none;
+  margin-left: 145px;
+
+  color: #959595;
+}
+
+.mpp__next{
+  text-decoration: none;
+  margin-left: 22px;
+
+  color: #212121;
+}
