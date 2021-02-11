@@ -1,0 +1,87 @@
+.s__discover {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sd__return {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.29rem;
+  line-height: 1em;
+  text-decoration: none;
+
+  color: #ffcdd2;
+
+  position: absolute;
+  top: 10px;
+  right: 0%;
+}
+
+.sd__iconreturn {
+  height: 7.7px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+.sd__title {
+  width: 40%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 1.1em;
+
+  color: #fff;
+
+  margin-top: 98px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.c__heroSpace {
+  height: 256px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 50px;
+  margin-top: -208px;
+
+  background: #fff;
+
+  display: flex;
+  align-items: center;
+}
+
+.ch__img {
+  height: 160px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 85px;
+  margin-right: 35px;
+}
+
+.ch__description {
+  height: 100%;
+  width: 63%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ch__hero {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 1em;
+  padding: 54px 0px 29px;
+
+  color: #212121;
+}
+
+.ch__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.2em;
+
+  color: #212121;
+}
