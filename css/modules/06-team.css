@@ -1,0 +1,45 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.s__team {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.st__return {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.29rem;
+  line-height: 1em;
+  text-decoration: none;
+
+  color: #ffcdd2;
+
+  position: absolute;
+  top: 10px;
+  right: 0%;
+}
+
+.st__iconreturn {
+  height: 7.7px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+.st__title {
+  width: 40%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 1.1em;
+
+  color: #fff;
+
+  margin-top: 98px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
