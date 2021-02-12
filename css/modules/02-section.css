@@ -2,7 +2,7 @@
   width: 100%;
   height: 418px;
 
-  background-image:url(/assets/images/backgroundmain.png);
+  background-image:url(../../assets/images/backgroundmain.png);
   background-size: 100%;
 
   display: flex;
