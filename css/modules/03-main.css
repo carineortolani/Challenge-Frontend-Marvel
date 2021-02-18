@@ -70,11 +70,25 @@
   height: 46px;
   border-radius: 100%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  outline: none;
   position: absolute;
   left: 176px;
   top: 145px;
 
   background-color: #f5f5f5;
+}
+
+.mcc__buttonSelect {
+  width: 46px;
+  height: 46px;
+  border-radius: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  outline: none;
+  position: absolute;
+  left: 176px;
+  top: 145px;
+
+  background-color: #f43735;
 }
 
 .mccb_iconbnt {
