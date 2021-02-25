@@ -13,7 +13,8 @@ heroFavorite.forEach(function(button, index) {
     button.classList.add('mcc__buttonSelect')
   }
 
-  button.addEventListener('click',function() {
+  button.addEventListener('click',function(event) {
+    event.preventDefault();
     button.classList.toggle("mcc__buttonSelect");
 
     if(localStorage[heros]) {
