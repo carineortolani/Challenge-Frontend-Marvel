@@ -47,10 +47,10 @@
 .s__buttonSearch {
   width: 80px;
   height: 59px;
-  border-radius: 5px 15px 5px 0px;
   margin-left: -3px;
 
-  background: #f43735;
+  background-color: #f43735;
+  border-radius: 5px 15px 5px 0px;
 }
 
 .sb__imgButtonS {
