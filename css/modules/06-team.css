@@ -1,52 +1,33 @@
 .s__team {
-  height: 100%;
-
+  position: relative;
   display: flex;
   flex-direction: column;
-  position: relative;
+  height: 100%;
 }
 
 .st__return {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1.29rem;
-  line-height: 1em;
-  text-decoration: none;
-
-  color: #ffcdd2;
-
   position: absolute;
   top: 10px;
-  right: 0%;
+  right: 0;
+
+  font: 700 1.29rem/1em 'Roboto', sans-serif;
+  color: #ffcdd2;
+
+  text-decoration: none;
 }
 
 .st__iconreturn {
-  height: 7.7px;
   margin-bottom: 3px;
   margin-left: 5px;
+  height: 7.7px;
 }
 
 .st__title {
+  margin: 98px 0 40px 30px;
   width: 40%;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 2.2rem;
-  line-height: 1.1em;
 
+  font: 700 2.2rem/1.1em 'Roboto', sans-serif;
   color: #fff;
-
-  margin-top: 98px;
-  margin-left: 30px;
-  margin-bottom: 40px;
-}
-
-.main {
-  width: 100%;
-
-  background-color: #f5f5f5;
-
-  display: flex;
-  justify-content: center;
 }
 
 .m__cards {
@@ -57,22 +38,20 @@
 
 .m__cards_1 {
   margin-top: 45px;
-
   display: flex;
   justify-content: space-between;
 }
 
 .mc__card {
-  width: 230px;
-  height: 321px;
-  border-radius: 10px 30px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   position: relative;
-
-  background-color: #fff;
-
   display: flex;
   flex-direction: column;
+  width: 230px;
+  height: 321px;
+
+  background-color: #fff;
+  border-radius: 10px 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mcc__img_1 {
@@ -80,15 +59,15 @@
 }
 
 .mcc__button {
-  width: 46px;
-  height: 46px;
-  border-radius: 100%;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   position: absolute;
   left: 176px;
   top: 145px;
+  width: 46px;
+  height: 46px;
 
   background-color: #f43735;
+  border-radius: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mccb_iconbnt {
@@ -96,76 +75,48 @@
 }
 
 .mcc__name {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1.7rem;
-  line-height: 1em;
-  padding: 0.9em 0.9em 0.6em;
+  padding: 24px 24px 17px;
 
+  font: 700 1.7rem/1em 'Roboto', sans-serif;
   color: #212121;
 }
 
 .mcc__biography {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 0.859rem;
-  line-height: 1.1em;
-  padding: 0% 10%;
+  padding: 0 24px;
 
+  font: 400 0.859rem/1.1em 'Roboto', sans-serif;
   color: #212121;
 }
 
-.mcc__img_2 {
-  height: 169px;
-}
-
-.mcc__img_3 {
-  height: 169px;
-}
-
+.mcc__img_2,
+.mcc__img_3,
 .mcc__img_4 {
   height: 169px;
 }
 
 .m__pagination {
-  margin-top: 22px;
-  margin-bottom: 398px;
+  margin: 22px 0 398px;
   display: flex;
   justify-content: flex-end;
 }
 
 .mp__page {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1.3rem;
-  line-height: 1em;
+  font: 700 1.3rem/1em 'Roboto', sans-serif;
 }
 
-.mpp__number {
-  text-decoration: none;
-  color: #212121;
-}
-
-.mpp__more {
-  text-decoration: none;
-  color: #212121;
-}
-
-.mpp__end {
-  text-decoration: none;
+.mpp__number,
+.mpp__more,
+.mpp__end,
+.mpp__next {
   color: #212121;
 }
 
 .mpp__prev {
-  text-decoration: none;
   margin-left: 145px;
 
   color: #959595;
 }
 
 .mpp__next{
-  text-decoration: none;
   margin-left: 22px;
-
-  color: #212121;
 }
