@@ -116,7 +116,6 @@
 .mpp__more,
 .mpp__end,
 .mpp__next {
-  text-decoration: none;
   color: #212121;
 }
 
@@ -124,7 +123,6 @@
   margin-left: 145px;
 
   color: #959595;
-  text-decoration: none;
 }
 
 .mpp__next{
