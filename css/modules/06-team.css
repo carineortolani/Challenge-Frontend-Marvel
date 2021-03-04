@@ -1,5 +1,6 @@
 .s__team {
   position: relative;
+
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -12,8 +13,6 @@
 
   font: 700 1.29rem/1em 'Roboto', sans-serif;
   color: #ffcdd2;
-
-  text-decoration: none;
 }
 
 .st__iconreturn {
@@ -31,21 +30,23 @@
 }
 
 .m__cards {
-  margin-top: -209px;
   display: flex;
   justify-content: space-between;
+  margin-top: -209px;
 }
 
 .m__cards_1 {
-  margin-top: 45px;
   display: flex;
   justify-content: space-between;
+  margin-top: 45px;
 }
 
 .mc__card {
   position: relative;
+
   display: flex;
   flex-direction: column;
+
   width: 230px;
   height: 321px;
 
@@ -62,6 +63,7 @@
   position: absolute;
   left: 176px;
   top: 145px;
+
   width: 46px;
   height: 46px;
 
@@ -95,9 +97,9 @@
 }
 
 .m__pagination {
-  margin: 22px 0 398px;
   display: flex;
   justify-content: flex-end;
+  margin: 22px 0 398px;
 }
 
 .mp__page {

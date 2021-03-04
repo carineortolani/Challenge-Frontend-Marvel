@@ -38,6 +38,7 @@
 
 .mc__card {
   position: relative;
+
   display: flex;
   flex-direction: column;
   width: 230px;
@@ -56,6 +57,7 @@
   position: absolute;
   left: 176px;
   top: 145px;
+
   width: 46px;
   height: 46px;
 
@@ -69,6 +71,7 @@
   position: absolute;
   left: 176px;
   top: 145px;
+
   width: 46px;
   height: 46px;
 

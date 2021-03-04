@@ -1,5 +1,6 @@
 .s__discover {
   position: relative;
+
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -99,11 +100,10 @@
 }
 
 .cn__content {
-  width: 70%;
   display: flex;
-  margin-left: 46px;
-
   flex-direction: column;
+  margin-left: 46px;
+  width: 70%;
 }
 
 .cn__title {
