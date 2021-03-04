@@ -47,3 +47,19 @@
   width: 24px;
   margin-left: 10px;
 }
+
+@media (max-width: 425px) {
+  .header__style {
+    height: auto;
+  }
+
+  .h__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .h__logo{
+    flex-direction: column;
+    text-align: center;
+  }
+}
