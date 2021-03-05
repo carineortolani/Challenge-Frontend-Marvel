@@ -172,6 +172,7 @@
   .c__comics {
     height: auto;
   }
+
   .c__intro {
     justify-content: center;
     flex-direction: column;
@@ -210,6 +211,7 @@
     width: 50%;
   }
 }
+
 @media (max-width: 425px) {
   .c__heroSpace {
     flex-direction: column;

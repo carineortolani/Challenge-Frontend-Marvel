@@ -133,7 +133,7 @@
   margin-left: 22px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .main__style {
     height: auto;
   }
@@ -162,7 +162,7 @@
     margin-top: 15px;
   }
 
-.m__pagination {
+  .m__pagination {
     justify-content: center;
   }
 
