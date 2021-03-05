@@ -122,3 +122,45 @@
 .mpp__next{
   margin-left: 22px;
 }
+
+@media (max-width: 768px) {
+  .st__title {
+    width: auto;
+    font-size: 1.8rem;
+  }
+
+  .st__return {
+    font-size: 1rem;
+  }
+
+  .m__container {
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+
+  .m__cards,
+  .m__cards_1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mc__card {
+    margin-top: 15px;
+  }
+
+.m__pagination {
+    justify-content: center;
+  }
+
+  .mpp__prev,
+  .mpp__next {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .m__cards {
+    margin-top: -160px;
+  }
+}
