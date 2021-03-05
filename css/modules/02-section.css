@@ -57,3 +57,22 @@
   width: 25px;
   border: none;
 }
+
+@media (max-width: 425px) {
+  .section__style {
+    height: 318px;
+  }
+
+  .s__text {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .s__search {
+    font-size: 80%;
+  }
+
+  .s__input {
+    height: auto;
+  }
+}
