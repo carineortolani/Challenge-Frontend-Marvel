@@ -1,4 +1,4 @@
-.header__style {
+.header__background {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,7 +49,7 @@
 }
 
 @media (max-width: 425px) {
-  .header__style {
+  .header__background {
     height: auto;
   }
 

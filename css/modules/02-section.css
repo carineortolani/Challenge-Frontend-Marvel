@@ -1,4 +1,4 @@
-.section__style {
+.section__background {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 425px) {
-  .section__style {
+  .section__background {
     height: 318px;
   }
 

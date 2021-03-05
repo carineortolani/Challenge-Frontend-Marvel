@@ -1,4 +1,4 @@
-.main__style {
+.main__background {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -134,7 +134,7 @@
 }
 
 @media (max-width: 1000px) {
-  .main__style {
+  .main__background {
     height: auto;
   }
 
