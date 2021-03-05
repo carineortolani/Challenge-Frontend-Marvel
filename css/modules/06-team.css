@@ -141,7 +141,7 @@
 
   .m__cards,
   .m__cards_1 {
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -156,6 +156,13 @@
   .mpp__prev,
   .mpp__next {
     margin-left: 10px;
+  }
+}
+
+@media (max-width: 473px) {
+  .m__cards,
+  .m__cards_1 {
+    justify-content: center;
   }
 }
 
