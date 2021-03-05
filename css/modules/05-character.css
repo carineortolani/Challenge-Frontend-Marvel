@@ -132,3 +132,102 @@
   font: 400 1.1rem/1.1em 'Roboto', sans-serif;
   color: #212121;
 }
+
+@media (max-width: 1000px) {
+  .sd__title {
+    width: auto;
+    font-size: 1.8rem;
+  }
+
+  .sd__return {
+    font-size: 1rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .c__heroSpace {
+    margin-top: -260px;
+  }
+
+  .ch__img {
+    margin: 0 30px;
+    height: 120px;
+  }
+
+  .ch__description {
+    justify-content: center;
+  }
+
+  .ch__hero {
+    padding: 0 0px 19px;
+    font-size: 1.5rem;
+  }
+
+  .ch__text {
+    font-size: 0.9rem;
+  }
+
+  .c__comics {
+    height: auto;
+  }
+  .c__intro {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .c__title {
+    font-size: 1.8rem;
+  }
+
+  .c__subtitle {
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  .c__notice {
+    height: auto;
+  }
+
+  .cn__title {
+    font-size: 1.4rem;
+  }
+
+  .cn__text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 626px) {
+  .c__notice {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cn__img {
+    width: 50%;
+  }
+}
+@media (max-width: 425px) {
+  .c__heroSpace {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    margin-top: -108px;
+  }
+
+  .ch__img {
+    margin: 30px 0;
+    height: 120px;
+  }
+
+  .cn__info {
+    flex-direction: column;
+  }
+
+  .cn__icon {
+    margin-left: 0;
+  }
+}
