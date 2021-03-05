@@ -15,3 +15,14 @@
   font: 400 1rem/1em 'Roboto', sans-serif;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .f__container {
+    font-size: 0.9rem;
+    flex-direction: column;
+  }
+
+  .f__dev {
+    margin-top: 10px;
+  }
+}
