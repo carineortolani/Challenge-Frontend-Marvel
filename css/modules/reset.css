@@ -54,6 +54,7 @@ table {
 }
 button {
   border: none;
+  outline: none;
 }
 .container {
   width: 1000px;
