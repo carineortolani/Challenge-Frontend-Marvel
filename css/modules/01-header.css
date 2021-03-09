@@ -41,6 +41,8 @@
 
   background-color: #f43735;
   border-radius: 4px 17px;
+
+  cursor: pointer;
 }
 
 .hb__imgButtonYT {

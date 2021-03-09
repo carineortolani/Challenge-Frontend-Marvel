@@ -64,8 +64,9 @@
 
   background-color: #f5f5f5;
   border-radius: 100%;
-  outline: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
 }
 
 .mcc__buttonSelect {
@@ -78,8 +79,9 @@
 
   background-color: #f43735;
   border-radius: 100%;
-  outline: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
 }
 
 .mccb_iconbnt {
