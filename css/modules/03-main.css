@@ -63,10 +63,19 @@
   height: 46px;
 
   background-color: #f5f5f5;
+  background-image: url('../../assets/icons/iconbntcard.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 19px;
   border-radius: 100%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   cursor: pointer;
+}
+
+.mcc__button:hover {
+  background-color: #f43735;
+  background-image: url('../../assets/icons/iconbtnteam.svg');
 }
 
 .mcc__buttonSelect {
@@ -78,14 +87,14 @@
   height: 46px;
 
   background-color: #f43735;
+  background-image: url('../../assets/icons/iconbtnteam.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 19px;
   border-radius: 100%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   cursor: pointer;
-}
-
-.mccb_iconbnt {
-  width: 19px;
 }
 
 .mcc__name {
