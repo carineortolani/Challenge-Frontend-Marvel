@@ -49,7 +49,8 @@
   height: 160px;
 }
 
-.ch__img_iron {
+.ch__img_iron,
+.ch__img_wolverine {
   margin: 48px 35px 48px 85px;
   height: 170px;
 }
@@ -115,8 +116,10 @@
   width: 70%;
 }
 
-.cn__img_iron {
+.cn__img_iron,
+.cn__img_wolverine {
   border-radius: 10px 0 0 70px;
+  height: 226px;
 }
 
 .cn__title {
@@ -169,7 +172,8 @@
     height: 120px;
   }
 
-  .ch__img_iron {
+  .ch__img_iron,
+  .ch__img_wolverine {
     margin: 0 30px;
     height: 130px;
   }
@@ -209,7 +213,8 @@
     height: auto;
   }
 
-  .cn__img_iron {
+  .cn__img_iron
+  .cn__img_wolverine {
     height: 265px;
   }
 
@@ -222,7 +227,7 @@
   }
 }
 
-@media (max-width: 657px) {
+@media (max-width: 673px) {
   .c__notice {
     flex-direction: column;
     justify-content: center;
@@ -247,7 +252,8 @@
     height: 120px;
   }
 
-  .ch__img_iron {
+  .ch__img_iron,
+  .ch__img_wolverine {
     margin: 30px 0;
     height: 130px;
   }
@@ -257,5 +263,10 @@
 
   .cn__icon {
     margin-left: 0;
+  }
+
+  .cn__img_iron,
+  .cn__img_wolverine {
+    height: 180px;
   }
 }
