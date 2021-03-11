@@ -44,7 +44,8 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.ch__img {
+.ch__img,
+.ch__img_captain {
   margin: 48px 35px 48px 85px;
   height: 160px;
 }
@@ -117,7 +118,8 @@
 }
 
 .cn__img_iron,
-.cn__img_wolverine {
+.cn__img_wolverine,
+.cn__img_captain {
   border-radius: 10px 0 0 70px;
   height: 226px;
 }
@@ -214,7 +216,8 @@
   }
 
   .cn__img_iron
-  .cn__img_wolverine {
+  .cn__img_wolverine,
+  .cn__img_captain {
     height: 265px;
   }
 
@@ -266,7 +269,8 @@
   }
 
   .cn__img_iron,
-  .cn__img_wolverine {
+  .cn__img_wolverine,
+  .cn__img_captain {
     height: 180px;
   }
 }
