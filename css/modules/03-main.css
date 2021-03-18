@@ -166,11 +166,12 @@
   .m__cards,
   .m__cards_1 {
     flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: center;
   }
 
   .mc__card {
-    margin-top: 15px;
+    margin: 15px 0 0 27px;
   }
 
   .m__pagination {
@@ -183,7 +184,7 @@
   }
 }
 
-@media (max-width: 525px) {
+@media (max-width: 570px) {
   .m__cards,
   .m__cards_1 {
     justify-content: center;
