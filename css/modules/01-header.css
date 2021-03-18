@@ -1,0 +1,67 @@
+.header__background {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 128px;
+
+  background-color: #202020;
+}
+
+.h__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h__logo {
+  display: flex;
+  align-items: center;
+}
+
+.hl__img {
+  width: 51px;
+  margin-right: 15px;
+}
+
+.hl__title {
+  font: 700 2rem/1em 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.h__buttonYourTeam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 152px;
+  height: 50px;
+
+  font: 400 1.25rem/1em 'Roboto', sans-serif;
+  color: #fff;
+
+  background-color: #f43735;
+  border-radius: 4px 17px;
+
+  cursor: pointer;
+}
+
+.hb__imgButtonYT {
+  width: 24px;
+  margin-left: 10px;
+}
+
+@media (max-width: 425px) {
+  .header__background {
+    height: auto;
+  }
+
+  .h__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .h__logo{
+    flex-direction: column;
+    text-align: center;
+  }
+}

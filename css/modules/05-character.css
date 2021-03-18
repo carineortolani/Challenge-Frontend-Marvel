@@ -1,0 +1,276 @@
+.s__discover {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sd__return {
+  position: absolute;
+  top: 10px;
+  right: 0;
+
+  font: 700 1.29rem/1em 'Roboto', sans-serif;
+  color: #ffcdd2;
+
+  background: none;
+
+  cursor: pointer;
+}
+
+.sd__iconreturn {
+  height: 7px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+.sd__title {
+  margin: 98px 0 40px 30px;
+  width: 40%;
+
+  font: 700 2.2rem/1.1em 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.c__heroSpace {
+  display: flex;
+  align-items: center;
+  height: 256px;
+  margin-top: -208px;
+
+  background-color: #fff;
+  border-radius: 10px 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ch__img,
+.ch__img_captain {
+  margin: 48px 35px 48px 85px;
+  height: 160px;
+}
+
+.ch__img_iron,
+.ch__img_wolverine {
+  margin: 48px 35px 48px 85px;
+  height: 170px;
+}
+
+.ch__description {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 63%;
+}
+
+.ch__hero {
+  padding: 54px 0 29px;
+
+  font: 700 2.3rem/1em 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.ch__text {
+  font: 400 1.3rem/1.2em 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.c__comics {
+  width: 100%;
+  height: 1555px;
+}
+
+.c__intro {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 110px;
+}
+
+.c__title {
+  font: 700 2.25rem/1em 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.c__subtitle {
+  margin-right: 39px;
+
+  font: 700 1.25rem/1em 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.c__notice {
+  display: flex;
+  margin-bottom: 40px;
+  height: 226px;
+
+  background-color: #fff;
+  border-radius: 10px 70px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cn__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 46px;
+  width: 70%;
+}
+
+.cn__img_iron,
+.cn__img_wolverine,
+.cn__img_captain {
+  border-radius: 10px 0 0 70px;
+  height: 226px;
+}
+
+.cn__title {
+  margin-top: 20px;
+
+  font: 700 1.6rem/1.1em 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.cn__info {
+  display: flex;
+  justify-content: baseline;
+  margin-top: 15px;
+
+  font: 400 0.9rem/1.1em 'Roboto', sans-serif;
+}
+
+.cn__icon {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.cn__text {
+  margin-top: 20px;
+
+  font: 400 1.1rem/1.1em 'Roboto', sans-serif;
+  color: #212121;
+}
+
+@media (max-width: 1000px) {
+  .sd__title {
+    width: auto;
+    font-size: 1.8rem;
+  }
+
+  .sd__return {
+    font-size: 1rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .c__heroSpace {
+    margin-top: -260px;
+  }
+
+  .ch__img {
+    margin: 0 30px;
+    height: 120px;
+  }
+
+  .ch__img_iron,
+  .ch__img_wolverine {
+    margin: 0 30px;
+    height: 130px;
+  }
+
+  .ch__description {
+    justify-content: center;
+  }
+
+  .ch__hero {
+    padding: 0 0px 19px;
+    font-size: 1.5rem;
+  }
+
+  .ch__text {
+    font-size: 0.9rem;
+  }
+
+  .c__comics {
+    height: auto;
+  }
+
+  .c__intro {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .c__title {
+    font-size: 1.8rem;
+  }
+
+  .c__subtitle {
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+
+  .c__notice {
+    height: auto;
+  }
+
+  .cn__img_iron
+  .cn__img_wolverine,
+  .cn__img_captain {
+    height: 265px;
+  }
+
+  .cn__title {
+    font-size: 1.4rem;
+  }
+
+  .cn__text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 673px) {
+  .c__notice {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cn__img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  .c__heroSpace {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    margin-top: -108px;
+  }
+
+  .ch__img {
+    margin: 30px 0;
+    height: 120px;
+  }
+
+  .ch__img_iron,
+  .ch__img_wolverine {
+    margin: 30px 0;
+    height: 130px;
+  }
+  .cn__info {
+    flex-direction: column;
+  }
+
+  .cn__icon {
+    margin-left: 0;
+  }
+
+  .cn__img_iron,
+  .cn__img_wolverine,
+  .cn__img_captain {
+    height: 180px;
+  }
+}
